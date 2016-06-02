@@ -1,0 +1,24 @@
+{
+  "name": "gdax-notify",
+  "version": "1.0.0",
+  "description": "App to notify on gdax order changes using gdax API",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gdax",
+    "node",
+    "coinbase",
+    "notify",
+    "notification"
+  ],
+  "author": "Jake Tegtmeier",
+  "license": "MIT",
+  "dependencies": {
+    "coinbase": "^2.0.5",
+    "coinbase-exchange": "^0.2.1",
+    "express": "^4.13.4",
+    "nodemailer": "^2.4.2"
+  }
+}
